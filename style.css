@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+/* div {
+    border: 1px solid white;
+} */
+
+body{
+    width: 1440px;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+}
+.card {
+    width: 360px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 25px;
+    
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .photo img{
+    border-radius: 50%;
+    width: 150px;
+    padding: 30px;
+ }
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+ .name {
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+ }
+.location{
+    width: 100%;
+    color: hsl(75, 94%, 57%);
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+.description{
+    width: 100%;
+    padding: 25px;
+    color: hsl(0, 0%, 61%);
+    text-align: center;
+    font-weight: 400;
+    
+}
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 30px;
+}
+.links{
+    
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 5px;
+    margin: 8px;
+    width: 80%;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.links:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: url(assets/images/pngwing.com.png) auto;
+    
+}
+
+
+
+
+
+footer{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+}
+
+@media only screen and (max-width: 1030px){
+    Body {
+        width: 980px;
+    }
+}
+@media only screen and (max-width: 730px){
+    Body {
+        width: 670px;
+    }
+}
+@media only screen and (max-width: 400px){
+    Body {
+        width: 375px;
+    }
+}
